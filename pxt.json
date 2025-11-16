@@ -1,7 +1,10 @@
 {
   "name": "myextension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My minimal MakeCode extension",
+  "dependencies":{
+	  "core": "*"
+  },
   "files": [
     "main.ts"
   ],
