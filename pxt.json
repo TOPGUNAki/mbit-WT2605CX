@@ -1,0 +1,10 @@
+{
+  "name": "myextension",
+  "version": "0.0.1",
+  "description": "My minimal MakeCode extension",
+  "files": [
+    "main.ts"
+  ],
+  "public": true
+}
+
