@@ -1,7 +1,7 @@
 {
-  "name": "myextension",
-  "version": "0.0.2",
-  "description": "My minimal MakeCode extension",
+  "name": "WT2605CX",
+  "version": "0.0.3",
+  "description": "Code for WT2605CX chip",
   "dependencies":{
 	  "core": "*"
   },
