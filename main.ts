@@ -25,5 +25,17 @@ let _initialized = false
 
         _initialized = true
     }
+
+    	/**
+ 	* SDカードの指定インデックスの曲を再生
+ 	*/
+	//% block="WT2605CX 再生 index %index"
+	//% index.min=1 index.max=999
+	export function playIndex(index: number): void {
+		if (!_initialized) return;
+    		const cmd = "AT+PLAY=sd0," + index + "\r";
+    		serial.writeString(cmd);
+	}
+
 }
 
